@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Dev Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>DevQuiz</h1>
+            <div class="controls">
+                <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+                <button id="sound-toggle" aria-label="Toggle Sound">🔊</button>
+            </div>
+        </header>
+
+        <main id="main-content" class="card">
+            
+            <section id="welcome-screen" class="screen active">
+                <h2>Welcome to DevQuiz!</h2>
+                <p>Test your knowledge in Web Development and General Tech.</p>
+                <button id="start-btn" class="btn primary">Start Game</button>
+            </section>
+
+            <section id="category-screen" class="screen hidden">
+                <h2>Select a Category</h2>
+                <div class="category-grid">
+                    <button class="btn category-btn" data-category="web">Web Development</button>
+                    <button class="btn category-btn" data-category="tech">General Tech</button>
+                </div>
+            </section>
+
+            <section id="quiz-screen" class="screen hidden">
+                <div class="quiz-header">
+                    <span id="question-tracker">Question: 1/10</span>
+                    <div class="timer">
+                        ⏳ <span id="time-left">15</span>s
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <h3 id="question-text">Question goes here?</h3>
+                <div id="options-container" class="options-grid">
+                    </div>
+            </section>
+
+            <section id="result-screen" class="screen hidden">
+                <h2>Quiz Complete!</h2>
+                <div class="score-display">
+                    <h3 id="final-score">0%</h3>
+                    <p id="performance-msg">Great job!</p>
+                </div>
+                <div class="analytics">
+                    <p>Correct: <span id="correct-count">0</span></p>
+                    <p>Incorrect: <span id="incorrect-count">0</span></p>
+                </div>
+                
+                <div class="leaderboard">
+                    <h3>🏆 Local Leaderboard</h3>
+                    <ul id="leaderboard-list"></ul>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="restart-btn" class="btn primary">Play Again</button>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
