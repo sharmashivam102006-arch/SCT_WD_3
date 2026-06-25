@@ -40,10 +40,11 @@ The application displays:
 ## 📷 Screenshots
 
 ### Welcome Screen
-![Quiz Welcome](screenshots/welcome.png)
+<img width="1913" height="971" alt="image" src="https://github.com/user-attachments/assets/e97a3e96-ab58-46a7-a8ef-3ed76e54198d" />
+<img width="1195" height="626" alt="image" src="https://github.com/user-attachments/assets/7b698f05-7b0f-4218-81af-a51d8e52ca4b" />
 
 ### Result Screen
-![Quiz Result](screenshots/result.png)
+<img width="1141" height="885" alt="image" src="https://github.com/user-attachments/assets/01c362b2-d61b-4e24-9bc7-70a6990346b0" />
 
 ## 🎯 Learning Outcomes
 
@@ -71,6 +72,6 @@ Add your GitHub Pages link here.
 
 ## 👨‍💻 Author
 
-Developed by [Your Name]
+Developed by Shivam Sharma
 
 SkillsCraft Technology Internship - Task 03
