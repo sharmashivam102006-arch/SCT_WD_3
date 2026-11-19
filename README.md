@@ -68,7 +68,7 @@ SCT_WD_3/
 
 ## 🌐 Live Demo
 
-Add your GitHub Pages link here.
+https://dev-quiz-tawny.vercel.app/
 
 ## 👨‍💻 Author
 
